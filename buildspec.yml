@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+      nodejs: 12
+    commands:
+      - npm i 
+  build:
+    commands:
+      - npm run test
+  post_build:
+    commands:
+      - echo "tests complete"
+artifacts:
+  files:
+    - '**/*'

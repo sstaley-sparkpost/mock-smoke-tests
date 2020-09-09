@@ -1,0 +1,22 @@
+{
+  "name": "mock-smoke-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstaley-sparkpost/mock-smoke-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sstaley-sparkpost/mock-smoke-tests/issues"
+  },
+  "homepage": "https://github.com/sstaley-sparkpost/mock-smoke-tests#readme",
+  "description": "",
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}
